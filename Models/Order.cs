@@ -9,6 +9,8 @@ public partial class Order
 
     public string? ProductName { get; set; }
 
+    public string? testField { get; set; }
+
     public int? UserId { get; set; }
 
     public virtual User? User { get; set; }
